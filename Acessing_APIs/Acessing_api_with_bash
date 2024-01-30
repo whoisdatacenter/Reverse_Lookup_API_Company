@@ -1,0 +1,8 @@
+#!/bin/bash
+
+api_key='place_your_api_key_here'
+company_name='Example Corp' # Replace with the company name you want to look up
+api_url="https://api.whoisdatacenter.com/v1/company?apiKey=${api_key}&company=${company_name}"
+
+response=$(curl -s $api_url)
+echo $response
