@@ -1,0 +1,10 @@
+# PHP
+$apiKey = 'place_your_api_key_here';
+$companyName = 'example';
+
+$apiUrl = "https://api.whoisdatacenter.com/v1/company?apiKey={$apiKey}&company={$companyName}";
+
+$response = file_get_contents($apiUrl);
+$data = json_decode($response, true);
+
+print_r($data);
