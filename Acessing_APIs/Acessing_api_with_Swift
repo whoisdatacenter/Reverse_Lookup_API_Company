@@ -1,0 +1,14 @@
+// Swift
+import Foundation;
+
+let apiKey = "place_your_api_key_here";
+let companyName = "example";
+let apiUrl = URL(string: "https://api.whoisdatacenter.com/v1/company?apiKey=\(apiKey)&company=\(companyName)")!;
+
+do {
+let data = try Data(contentsOf: apiUrl);
+let result = try JSONSerialization.jsonObject(with: data, options: []) as [String: Any];
+print(result);
+} catch {
+print("Error: \(error)");
+}
