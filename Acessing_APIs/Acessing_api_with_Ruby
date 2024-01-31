@@ -1,0 +1,11 @@
+# Ruby
+require 'net/http'
+require 'json'
+
+api_key = 'place_your_api_key_here'
+company_name = 'example'
+api_url = "https://api.whoisdatacenter.com/v1/company?apiKey=#{api_key}&company=#{company_name}"
+
+response = Net::HTTP.get(URI(api_url))
+data = JSON.parse(response)
+puts data
