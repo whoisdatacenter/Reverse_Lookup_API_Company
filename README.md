@@ -6,7 +6,7 @@ ___
 **Introduction**
  <br />
  
- •Welcome to the Company Reverse Lookup API, a specialized tool for extracting company information from domain data. This API serves as a bridge between the vast world of domain data and valuable business insights, providing users with a streamlined approach to uncovering company-related information linked to specific domains. Whether you're in market research, sales, or data analysis, this API is designed to enhance your understanding of the business landscape.
+**•Welcome to the Company Reverse Lookup API, a specialized tool for extracting company information from domain data. This API serves as a bridge between the vast world of domain data and valuable business insights, providing users with a streamlined approach to uncovering company-related information linked to specific domains. Whether you're in market research, sales, or data analysis, this API is designed to enhance your understanding of the business landscape.**
  <br />
  
 ___
